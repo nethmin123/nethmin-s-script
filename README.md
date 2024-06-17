@@ -27,7 +27,8 @@ To use, download the files and copy paste nethminsscript.py into your python pro
 ```python
 import nethminsscript
 
-variables = {} # Dictionary to store variables
+# Dictionary to store variables
+variables = {} 
 ```
 
 ## Use nsprint to display a message box
