@@ -24,10 +24,11 @@
 To use, download the files and copy paste nethminsscript.py into your python project folder. Then you can use nethmin's script in that folder.
 
 ## Then, you can import and use the library in your Python scripts:
-
+'''python
 import nethminsscript
 
 ## Dictionary to store variables
+'''python
 variables = {}
 
 ## Use nsprint to display a message box
