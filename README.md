@@ -16,7 +16,6 @@
 - Choose colors with `nscolorchooser`
 - Enter multiline text with `nsmultilineinput`
 - Select multiple items from a list with `nslistbox`
-- Pick a date with `nsdateinput`
 - Display data in a treeview with `nstreeview`
 
 ## Installation
@@ -27,7 +26,7 @@ To use, download the files and copy paste nethminsscript.py into your python pro
 ```python
 import nethminsscript
 
-# Dictionary to store variables
+# Dictionary to store variables , you must include this.
 variables = {} 
 ```
 
