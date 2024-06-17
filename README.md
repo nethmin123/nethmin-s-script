@@ -39,7 +39,7 @@ nethminsscript.nsprint("Hello, World!")
 nethminsscript.nsinput(variables, "name", "Enter your name:", nethminsscript.is_non_empty)
 
 # to print the output
-print(variables['name'])
+print(f"The user's name is: {variables['name']}")
 ```
 ## Use nsconfirm to show a confirmation dialog
 ```python
@@ -54,7 +54,7 @@ else:
 nethminsscript.nsinput_int(variables, "age", "Enter your age:")
 
 # to print the output
-print(variables['age'])
+print(f"The user's age is: {variables['age']}")
 ```
 
 ## Use nsinput_float to get a float input and store it in a variable
@@ -62,7 +62,7 @@ print(variables['age'])
 nethminsscript.nsinput_float(variables, "height", "Enter your height in meters:")
 
 # to print the output
-print(variables['height'])
+print(f"The user's height is: {variables['height']}")
 ```
 
 ## Use nschoice to get a choice input and store it in a variable
@@ -71,7 +71,7 @@ choices = ["Option 1", "Option 2", "Option 3"]
 nethminsscript.nschoice(variables, "choice", "Choose an option:", choices)
 
 # to print the output
-print(variables['choice'])
+print(f"The user's choice is: {variables['choice']}")
 ```
 
 ## Use nsfileopen to open a file and store the path in a variable
@@ -79,7 +79,7 @@ print(variables['choice'])
 nethminsscript.nsfileopen(variables, "open_file")
 
 # to print the output
-print(variables['open_file'])
+print(f"The user opened: {variables['open_file']}")
 ```
 
 ## Use nsfilesave to save a file and store the path in a variable
@@ -87,7 +87,7 @@ print(variables['open_file'])
 nethminsscript.nsfilesave(variables, "save_file")
 
 # to print the output
-print(variables['save_file'])
+print(f"The user saved to: {variables['save_file']}")
 ```
 
 ## Use nsprogressbar to show a progress bar for 5 seconds
@@ -100,7 +100,7 @@ nethminsscript.nsprogressbar(5, "Please wait...")
 nethminsscript.nscolorchooser(variables, "selected_color", "Pick a color")
 
 # to print the output
-print(variables['selected_color'])
+print(f"Selected color: {variables['selected_color']}")
 ```
 
 ## Use nsmultilineinput to get multiline input and store it in a variable
@@ -108,7 +108,7 @@ print(variables['selected_color'])
 nethminsscript.nsmultilineinput(variables, "feedback", "Please provide your feedback:")
 
 # to print the output
-print(variables['feedback'])
+print(f"User feedback: {variables['feedback']}")
 ```
 
 ## Use nslistbox to select multiple items from a list
@@ -117,7 +117,7 @@ items = ["Item 1", "Item 2", "Item 3", "Item 4"]
 nethminsscript.nslistbox(variables, "selected_items", "Choose items:", items)
 
 # to print the output
-print(variables['selected_items'])
+print(f"Selected items: {variables['selected_items']}")
 ```
 
 ## Use nstreeview to display data in a treeview
