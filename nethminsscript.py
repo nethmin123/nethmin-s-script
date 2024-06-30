@@ -1,4 +1,6 @@
 # nethminsscript.py
+# Made by Nethmin Chamika , support me on https://ko-fi.com/nethminchamika
+
 import tkinter as tk
 from tkinter import simpledialog, messagebox, filedialog, ttk, colorchooser
 import time
