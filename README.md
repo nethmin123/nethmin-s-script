@@ -127,4 +127,4 @@ data = [("Alice", 30, "New York"), ("Bob", 25, "Los Angeles"), ("Charlie", 35, "
 nethminsscript.nstreeview(data, columns, "User Data")
 ```
 
-Made by nethmin chamika , Support me on [Ko-Fi] (https://ko-fi.com/nethminchamika)
+Made by nethmin chamika , Support me on [Ko-Fi](https://ko-fi.com/nethminchamika)
